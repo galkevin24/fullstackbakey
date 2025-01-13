@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  header {
+    padding: 1ch;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .brand {
+    margin: 0;
+    flex: 2;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 300%;
+    color: rgb(121, 28, 28);
+  }s
+  nav {
+    flex: 1;
+  }
+  nav {
+    display: flex;
+    gap: 3ch;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+  }
+  a {
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  main {
+    margin: 0;
+    display: flex;
+    justify-content: start;
+    gap: 7ch;
+    height: 100vh;
+  }
+  article {
+    flex: 3;
+  }
+  article h1 {
+    margin: 0;
+    font-family: serif;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+  aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1ch;
+    margin: 0.8ch 1ch;
+    padding-left: 0;
+    width: 150%;
+    list-style: none;
+  }
+  li {
+    margin: 0 0 0 0;
+    padding: 0.25rem 0 0.25rem 0.25rem;
+    border-radius: 0.25rem;
+    background-color: rgb(121, 28, 28);
+    color: white;
+  }
+  li:hover {
+    cursor: pointer;
+  }
+  footer {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(121, 28, 28);
+    height: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: bold;
+    color: rgb(238, 233, 233);
+  }
+  .testimonial {
+    border-radius: 0.25rem;
+    background-color: rgb(216, 216, 216);
+    margin: 0 0.25rem 0 0;
+    padding: 1rem;
+    height: 8%;
+  }
+  blockquote {
+    margin: 1rem 1.5rem 0 1.5rem;
+    padding: 0;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+  figcaption {
+    margin: 0rem 1.5rem 0 2rem;
+    padding: 0;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+  p {
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 500;
+  }
